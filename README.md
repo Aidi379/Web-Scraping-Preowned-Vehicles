@@ -41,10 +41,17 @@ When web scraping:
 - The HTML content is then parsed and analyzed, often using libraries like BeautifulSoup, which allows you to navigate the DOM and extract information using tags, attributes, and CSS selectors.
 - CSS selectors are used to pinpoint and select elements within the HTML document based on various criteria. This is where libraries like BeautifulSoup come into play, allowing us to use CSS selectors to find and extract the desired data from the HTML content.
 
-# Project Goal
+# Project Intro
+## Goal
 As a car-renting platform, we would like to do data analysis of the current preowned vehicle market to
 - Determine the price range and distribution of the cars on current second-hand market
 - Use relevant information to determine the insurance policy and price the contracts
 
-### Website we are scraping: Craigslist
+## Website we are scraping: Craigslist
 Craigslist is a privately-held American company operating a classified advertisements website with sections devoted to jobs, housing, for sale, items wanted, services, community service, gigs, résumés, and discussion forums. And here today we would like to parse this website to get the price of pre-owned vehicles.
+
+## Three Ways to Crawl Web Page Information
+1. HTTP Requests: good for static pages, not apply to all websites, especially those dynamic with JavaScript.
+2. Selenium: use selenium and chromedriver-autoinstaller for all websites, including dynamic ones. The only downside is that it runs slower.
+3. The Json method: the simplest and fastest way. Only apply to those web pages use API end which is in Json format.
+   
