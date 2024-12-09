@@ -53,5 +53,5 @@ Craigslist is a privately-held American company operating a classified advertise
 ## Three Ways to Crawl Web Page Information
 1. HTTP Requests: good for static pages, not apply to all websites, especially those dynamic with JavaScript.
 2. Selenium: use selenium and chromedriver-autoinstaller for all websites, including dynamic ones. The only downside is that it runs slower.
-3. The Json method: the simplest and fastest way. Only apply to those web pages use API end which is in Json format.
+3. API request: the simplest and fastest way. Only apply to those web pages use API end which is in Json format.
    
